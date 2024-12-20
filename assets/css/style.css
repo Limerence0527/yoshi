@@ -186,17 +186,51 @@ main section h2 {
 
 /* 響應式調整 */
 @media (max-width: 768px) {
-    .experience-achievements h2 {
-        font-size: 1.8rem;
+    .navbar {
+        flex-direction: column; /* 將導覽列改為垂直排列 */
+        align-items: flex-start; /* 向左對齊 */
     }
-    .experience-achievements h3 {
-        font-size: 1.3rem;
+
+    .nav-item {
+        margin: 10px 0; /* 增加垂直間距 */
+        padding: 10px;
+        font-size: 1rem; /* 縮小字體 */
     }
-    .experience-achievements p,
-    .experience-achievements ul {
-        font-size: 1rem;
+
+    .content-container {
+        flex-direction: column; /* 改為垂直排列 */
+        align-items: center; /* 中心對齊 */
+    }
+
+    .photo img {
+        width: 100%; /* 確保圖片寬度自適應 */
+        height: auto; /* 保持比例 */
+    }
+
+    .about {
+        padding: 1rem;
+        font-size: 0.9rem; /* 縮小文字大小 */
+    }
+
+    .logo-center {
+        font-size: 1.5rem; /* 調整 Logo 大小 */
+        text-align: center; /* Logo 置中 */
+    }
+
+    header, .experience-achievements, .contact {
+        padding: 1rem; /* 縮小區塊內間距 */
+    }
+
+    .contact-item {
+        flex-direction: column; /* 在小螢幕時將內容垂直排列 */
+        text-align: center; /* 文字居中 */
+    }
+
+    .contact-item img {
+        margin-bottom: 0.5rem; /* 圖片與文字間距 */
     }
 }
+
 
 
 /* Contact Links */
@@ -310,4 +344,10 @@ p{
     padding: 1.5rem;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container, .content-container, .experience-achievements {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
 }
