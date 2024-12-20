@@ -23,13 +23,6 @@ header {
     margin-bottom: 1rem;
 }
 
-header .profile-photo img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid #fff;
-    margin-bottom: 1rem;
-}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -37,43 +30,43 @@ header .profile-photo img {
     max-width: 1200px;
     margin: auto;
     padding: 0 20px;
-    }
+}
+
 .logo-center {
     font-size: 2.0rem;
     font-weight: bold;
-}    
+}
 
 .nav-item {
-    display: inline-block; /* 確保按鈕不會換行 */
-    margin: 0 10px; /* 設置按鈕之間的間距 */
-    padding: 10px 20px; /* 設置內間距 */
-    font-size: 1.2rem; /* 設置字體大小 */
-    color: #ffffff; /* 文字顏色 */
-    background: linear-gradient(45deg, #ff4500, #ffa500); /* 橙色漸變背景 */
-    text-transform: uppercase; /* 文字大寫 */
-    border-radius: 10px; /* 圓角 */
-    border: none; /* 移除邊框 */
-    box-shadow: 0 5px 15px rgba(255, 69, 0, 0.6); /* 添加陰影 */
-    text-align: center; /* 文字居中 */
-    text-decoration: none; /* 移除底線 */
-    transition: all 0.3s ease; /* 添加過渡效果 */
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background: linear-gradient(45deg, #ff4500, #ffa500);
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(255, 69, 0, 0.6);
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 .nav-item:hover {
-    box-shadow: 0 5px 25px rgba(255, 69, 0, 0.8); /* 鼠標懸停時增加陰影 */
-    transform: translateY(-3px); /* 鼠標懸停時向上移動 */
+    box-shadow: 0 5px 25px rgba(255, 69, 0, 0.8);
+    transform: translateY(-3px);
 }
 
 .nav-item a {
-    color: #ffffff; /* 確保連結文字為白色 */
-    text-decoration: none; /* 移除底線 */
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .nav-item a:hover {
-    color: #ffa500; /* 滑鼠懸停時的文字顏色 */
-    text-decoration: none; /* 確保沒有底線 */
+    color: #ffa500;
+    text-decoration: none;
 }
-
 
 .navbar img {
     margin-right: 20px;
@@ -82,30 +75,6 @@ header .profile-photo img {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin-left: 1.5rem;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  nav ul li a:hover {
-    color: #ffa500; /* Highlight color for a sporty feel */
-  }
 header h1 {
     margin: 0;
     font-size: 2.5rem;
@@ -115,7 +84,6 @@ header .tagline {
     font-size: 1.2rem;
     font-style: italic;
 }
-
 
 /* Section Styles */
 main section {
@@ -133,21 +101,19 @@ main section h2 {
 }
 
 /* Services List */
-/* 區塊樣式 */
 .experience-achievements {
-    width: 100%; /* 100% 寬度 */
-    background-color: #f9f9f9; /* 背景色 */
-    padding: 50rem 0; /* 區塊內間距 */
-    text-align: center; /* 文字置中 */
+    width: 100%;
+    background-color: #f9f9f9;
     padding: 1.5rem;
+    text-align: center;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .experience-achievements .content {
-    max-width: 1200px; /* 最大寬度 */
-    margin: auto; /* 水平置中 */
-    padding: 0 1rem; /* 內部間距 */
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
 }
 
 .experience-achievements h2 {
@@ -159,7 +125,7 @@ main section h2 {
 .experience-achievements h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #ff4500; /* 強調色 */
+    color: #ff4500;
 }
 
 .experience-achievements p,
@@ -171,7 +137,7 @@ main section h2 {
 }
 
 .experience-achievements ul {
-    list-style: none; /* 移除項目符號 */
+    list-style: none;
     padding: 0;
 }
 
@@ -183,66 +149,16 @@ main section h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
-/* 響應式調整 */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column; /* 將導覽列改為垂直排列 */
-        align-items: flex-start; /* 向左對齊 */
-    }
-
-    .nav-item {
-        margin: 10px 0; /* 增加垂直間距 */
-        padding: 10px;
-        font-size: 1rem; /* 縮小字體 */
-    }
-
-    .content-container {
-        flex-direction: column; /* 改為垂直排列 */
-        align-items: center; /* 中心對齊 */
-    }
-
-    .photo img {
-        width: 100%; /* 確保圖片寬度自適應 */
-        height: auto; /* 保持比例 */
-    }
-
-    .about {
-        padding: 1rem;
-        font-size: 0.9rem; /* 縮小文字大小 */
-    }
-
-    .logo-center {
-        font-size: 1.5rem; /* 調整 Logo 大小 */
-        text-align: center; /* Logo 置中 */
-    }
-
-    header, .experience-achievements, .contact {
-        padding: 1rem; /* 縮小區塊內間距 */
-    }
-
-    .contact-item {
-        flex-direction: column; /* 在小螢幕時將內容垂直排列 */
-        text-align: center; /* 文字居中 */
-    }
-
-    .contact-item img {
-        margin-bottom: 0.5rem; /* 圖片與文字間距 */
-    }
-}
-
-
-
 /* Contact Links */
-.contact{
-    width: 100%; /* 100% 寬度 */
-    background-color: #f9f9f9; /* 背景色 */
-    padding: 50rem 0; /* 區塊內間距 */
-    text-align: center; /* 文字置中 */
+.contact {
+    width: 100%;
+    background-color: #f9f9f9;
     padding: 1.5rem;
+    text-align: center;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .contact a {
     color: #000000;
     text-decoration: none;
@@ -259,95 +175,108 @@ footer {
     color: #666;
 }
 
-p{
+p {
     font-family: "微軟正黑體", "Microsoft JhengHei";
     font-size: 20px;
-}
-/* 聯繫方式區塊 */
-.contact {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 600px;
-}
-
-.contact h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    margin: left 200px; ;
-    color: #333;
-}
-
-.contact h3 {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    color: #666;
 }
 
 .contact-item {
     display: flex;
-    align-items: center; /* 垂直置中 */
-    gap: 1rem; /* 圖片與文字的間距 */
+    align-items: center;
+    gap: 1rem;
     margin-bottom: 1.5rem;
-    justify-content: flex-start; /* 左對齊 */
+    justify-content: flex-start;
 }
 
 .contact-item img {
-    width: 40px; /* 控制圖片大小 */
+    width: 40px;
     height: 40px;
-    border-radius: 5px; /* 圖片圓角 */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 添加陰影 */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .contact-item p {
-    margin: 0; /* 移除段落預設間距 */
+    margin: 0;
     font-size: 1rem;
     color: #333;
 }
 
 .contact-item a {
-    color: #ff4500; /* 文字連結顏色 */
-    text-decoration: none; /* 移除連結底線 */
+    color: #ff4500;
+    text-decoration: none;
 }
 
 .contact-item a:hover {
-    text-decoration: underline; /* 滑鼠懸停時加上底線 */
+    text-decoration: underline;
 }
 
 /* Content Container: Flexbox 設定 */
 .content-container {
-    display: flex; /* 使用 Flexbox */
-    align-items: flex-start; /* 對齊到頂部 */
-    justify-content: flex-start; /* 從左側開始 */
-    gap: 2rem; /* 設定區塊之間的間隔 */
-    margin: 0 auto; /* 水平置中 */
-    max-width: 1200px; /* 最大寬度 */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
     padding: 1rem;
 }
 
-.logo-contact{
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    margin-left: 10px;
-}
-/* Photo 區塊設定 */
 .photo img {
-    width: auto; /* 設定圖片寬度 */
-    height: 715px; /* 高度自動調整 */
+    width: 100%;
+    height: auto;
     border-radius: 5px;
 }
 
-/* About 區塊設定 */
 .about {
-    flex: 1; /* 讓 About 區塊填滿剩餘空間 */
+    flex: 1;
     background-color: #fff;
     padding: 1.5rem;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.container, .content-container, .experience-achievements {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 1rem;
+
+/* 響應式調整 */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .photo img {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+    }
+
+    .about {
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .logo-center {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-item img {
+        margin-bottom: 0.5rem;
+    }
 }
