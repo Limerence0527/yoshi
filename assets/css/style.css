@@ -1,0 +1,313 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+}
+
+header .profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-bottom: 1rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    }
+.logo-center {
+    font-size: 2.0rem;
+    font-weight: bold;
+}    
+
+.nav-item {
+    display: inline-block; /* 確保按鈕不會換行 */
+    margin: 0 10px; /* 設置按鈕之間的間距 */
+    padding: 10px 20px; /* 設置內間距 */
+    font-size: 1.2rem; /* 設置字體大小 */
+    color: #ffffff; /* 文字顏色 */
+    background: linear-gradient(45deg, #ff4500, #ffa500); /* 橙色漸變背景 */
+    text-transform: uppercase; /* 文字大寫 */
+    border-radius: 10px; /* 圓角 */
+    border: none; /* 移除邊框 */
+    box-shadow: 0 5px 15px rgba(255, 69, 0, 0.6); /* 添加陰影 */
+    text-align: center; /* 文字居中 */
+    text-decoration: none; /* 移除底線 */
+    transition: all 0.3s ease; /* 添加過渡效果 */
+}
+
+.nav-item:hover {
+    box-shadow: 0 5px 25px rgba(255, 69, 0, 0.8); /* 鼠標懸停時增加陰影 */
+    transform: translateY(-3px); /* 鼠標懸停時向上移動 */
+}
+
+.nav-item a {
+    color: #ffffff; /* 確保連結文字為白色 */
+    text-decoration: none; /* 移除底線 */
+}
+
+.nav-item a:hover {
+    color: #ffa500; /* 滑鼠懸停時的文字顏色 */
+    text-decoration: none; /* 確保沒有底線 */
+}
+
+
+.navbar img {
+    margin-right: 20px;
+    width: 100px;
+    border-radius: 10%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 1.5rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffa500; /* Highlight color for a sporty feel */
+  }
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+
+/* Section Styles */
+main section {
+    background: #fff;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+main section h2 {
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+/* Services List */
+/* 區塊樣式 */
+.experience-achievements {
+    width: 100%; /* 100% 寬度 */
+    background-color: #f9f9f9; /* 背景色 */
+    padding: 50rem 0; /* 區塊內間距 */
+    text-align: center; /* 文字置中 */
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-achievements .content {
+    max-width: 1200px; /* 最大寬度 */
+    margin: auto; /* 水平置中 */
+    padding: 0 1rem; /* 內部間距 */
+}
+
+.experience-achievements h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.experience-achievements h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #ff4500; /* 強調色 */
+}
+
+.experience-achievements p,
+.experience-achievements ul {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.experience-achievements ul {
+    list-style: none; /* 移除項目符號 */
+    padding: 0;
+}
+
+.experience-achievements ul li {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* 響應式調整 */
+@media (max-width: 768px) {
+    .experience-achievements h2 {
+        font-size: 1.8rem;
+    }
+    .experience-achievements h3 {
+        font-size: 1.3rem;
+    }
+    .experience-achievements p,
+    .experience-achievements ul {
+        font-size: 1rem;
+    }
+}
+
+
+/* Contact Links */
+.contact{
+    width: 100%; /* 100% 寬度 */
+    background-color: #f9f9f9; /* 背景色 */
+    padding: 50rem 0; /* 區塊內間距 */
+    text-align: center; /* 文字置中 */
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    color: #666;
+}
+
+p{
+    font-family: "微軟正黑體", "Microsoft JhengHei";
+    font-size: 20px;
+}
+/* 聯繫方式區塊 */
+.contact {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin: left 200px; ;
+    color: #333;
+}
+
+.contact h3 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center; /* 垂直置中 */
+    gap: 1rem; /* 圖片與文字的間距 */
+    margin-bottom: 1.5rem;
+    justify-content: flex-start; /* 左對齊 */
+}
+
+.contact-item img {
+    width: 40px; /* 控制圖片大小 */
+    height: 40px;
+    border-radius: 5px; /* 圖片圓角 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 添加陰影 */
+}
+
+.contact-item p {
+    margin: 0; /* 移除段落預設間距 */
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-item a {
+    color: #ff4500; /* 文字連結顏色 */
+    text-decoration: none; /* 移除連結底線 */
+}
+
+.contact-item a:hover {
+    text-decoration: underline; /* 滑鼠懸停時加上底線 */
+}
+
+/* Content Container: Flexbox 設定 */
+.content-container {
+    display: flex; /* 使用 Flexbox */
+    align-items: flex-start; /* 對齊到頂部 */
+    justify-content: flex-start; /* 從左側開始 */
+    gap: 2rem; /* 設定區塊之間的間隔 */
+    margin: 0 auto; /* 水平置中 */
+    max-width: 1200px; /* 最大寬度 */
+    padding: 1rem;
+}
+
+.logo-contact{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 10px;
+}
+/* Photo 區塊設定 */
+.photo img {
+    width: auto; /* 設定圖片寬度 */
+    height: 715px; /* 高度自動調整 */
+    border-radius: 5px;
+}
+
+/* About 區塊設定 */
+.about {
+    flex: 1; /* 讓 About 區塊填滿剩餘空間 */
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
